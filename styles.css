@@ -1,0 +1,206 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 10px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  /*display: inline-block;  that was given in the pre-course but seems to give an error*/
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  float: left;
+}
+
+.part-two {
+  clear: both;
+}
+
+.city {
+  float: right;
+  height: 40%;
+  width: 40%;
+}
+
+header {
+  color: white;
+  background: rgb(32, 101, 136);
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 70px;
+}
+
+.part-two button {
+  background-color: rgb(240, 146, 51);
+  color: white; 
+  border-radius: 20px;
+  border-color: rgb(240, 146, 51);
+  height: 30px;
+  width: 100px;
+}
+
+input#search-bar {
+  background: rgb(31, 82, 111);
+  width: 900px;
+  height: 40px;
+}
+
+button.icon {
+  background: rgb(31, 82, 111);
+  color: white;
+  border-radius: 20px;
+  border-color: rgb(31, 82, 111);
+  height: 30px;
+  width: 100px;
+}
+
+.col {
+  float: left;
+}
+
+.signup {
+  list-style-type: none;
+  margin-top: 0;
+}
+
+.signup li {
+  display: inline-block;
+}
+
+.bear-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-bar-li {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  height: 8%;
+  width: 8%;
+  margin-right: 20px;
+}
+
+#number-one {
+  color: white;
+  background: rgb(39, 53, 71);
+}
+
+.signup-Orgs {
+  background-color: rgb(203, 56, 55);
+  color: white;
+  border-radius: 20px;
+  border-color: rgb(203, 56, 55);
+  height: 30px;
+  width: 120px;
+}
+
+.people {
+  height: 30%;
+  width: 30%;
+}
+
+#number-one {
+  padding: 65px 80px 170px 80px;
+}
+
+.collaboration {
+  float: right;
+  clear: both;
+}
+
+#number-two {
+  background: url(./images/forklift.svg);
+  background-size: cover;
+  padding: 300px 80px;
+  color: white;
+  position: relative;
+}
+
+#number-two .install-npm {
+  background: rgb(49, 68, 88);
+  color: white;
+  border-radius: 20px;
+  border-color: rgb(49, 68, 88);
+  height: 30px;
+  width: 100px;
+}
+
+.whatisnpm {
+  position: absolute;
+}
+
+.margin-pattern {
+  width: 700px;
+  margin: 0 auto;
+}
+
+#number-three {
+  background: white;
+}
+
+#number-three a {
+  color: rgb(208, 74, 73);
+  text-decoration-line: none;
+}
+
+#number-three p {
+  color: rgb(135, 145, 156);
+}
+
+#number-three h2, h3 {
+  color: rgb(83, 88, 98);
+  text-align: center;
+}
+
+#number-three .different {
+  color: rgb(83, 88, 98);
+  text-align: center;
+}
+
+.col-3 {
+  width: 33%;
+  text-align: center;
+}
+
+.other-link {
+  text-decoration-line: none;
+  color: white;
+}
+
+.list {
+  line-height: 40px;
+}
+
+#number-one h2 {
+  font-size: 40px;
+}
+
+#number-two h2 {
+  font-size: 40px;
+}
+
+header h1 {
+  font-size: 50px;
+}
